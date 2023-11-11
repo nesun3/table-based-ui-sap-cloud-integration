@@ -1,2 +1,2 @@
-# table-based-ui-sap-cloud-integration
-User-Friendly Table-Based UI in SAP Cloud Integration
+# User-friendly Table-based User Interfaces (UI) for SAP Cloud Integration
+
