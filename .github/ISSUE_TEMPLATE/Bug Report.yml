@@ -1,0 +1,86 @@
+name: Bug Report
+description: Create a report to help us improve
+title: "[Bug]: "
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. email@example.com
+    validations:
+      required: false
+  - type: input
+    id: decribe-the-bug
+    attributes:
+      label: Describe the bug
+      description: A short clear and concise description of what the bug is.
+      value: "A short description!"
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: A clear and concise description of what happened and what you expected to happen.
+      value: "Add relevant context about the problem here."
+    validations:
+      required: true
+  - type: textarea
+    id: to-reproduce
+    attributes:
+      label: Steps to reproduce the behavior
+      description: How do you trigger this bug? Please walk us through it step by step.
+      value: |
+        1. Go to '...'
+        2. Click on '....'
+        3. Scroll down to '....'
+        4. See error ...
+        [If applicable, add screenshots to help explain your problem.]
+        ** You can attach a word documents defining all the above steps with screenshot as well **
+    validations:
+      required: true
+  - type: dropdown
+    id: integration-flow-name
+    attributes:
+      label: Integration Flow Name?
+      multiple: false
+      options:
+        - Sync artifacts
+        - Sync artifacts - Delta
+        - Transport/Migrate artifacts
+        - Upload artifacts to tenant
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant log output
+      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
+      value: |
+        1. Attach the MPL 'HTTP LOGS'. 
+        2. Attach the MPL 'SUMMARY REPORT'.
+        3. If the above MPL is not generated, go trace and attach trace logs (i.e. Header, Property only) of the step where the error has occured.
+        4. Attach only the zip file of the integration flow having error.
+        [The above attachments are necessary for validation and troubleshooting.]
+    validations:
+      required: true
+  - type: checkboxes
+    id: unchanged
+    attributes:
+      label: Unchanged
+      description: You agree that you have unchanged the integration flow except external paramters. Support for customized iflow will not be supported. 
+      options:
+         - label: I agree that the above issue reported for the integration flow is kept unchanged.
+           required: true
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
+      options:
+         - label: I agree to follow this project's Code of Conduct
+           required: true
