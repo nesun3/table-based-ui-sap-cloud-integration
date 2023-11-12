@@ -28,7 +28,7 @@ https://nesun3.github.io/table-based-ui-examples/
 
 ## Requirements
  - You will need a SAP Cloud Integration tenant to consume, test and enhance this integrationartifacts.
- - To preview the HTML page, you will need a REST API client such as Insomnia, Postman, etc.
+ - **To preview the HTML page, you will need a REST API client such as Insomnia, Postman, etc**.
 
 ## Download and Installation
 This repository contains
