@@ -20,3 +20,27 @@ Additionally, I have broadened this approach to include Integration Artifacts an
 **Here’s a sneak-peak to the solution:**
 
 [<img src="https://img.youtube.com/vi/l6lwwu7u3cU/maxresdefault.jpg" width="50%">](https://www.youtube.com/watch?v=l6lwwu7u3cU "Watch the video")
+
+A write-up about this tool can be found here:
+
+## Support, Feedback, Contributing
+
+This project is open to feature requests/suggestions, bug reports, etc. via [GitHub issues](https://github.com/nesun3/ci-cd-sap-cloud-integration/issues/new/choose).
+This project is currently not accepting any contribution, but may change in future.
+
+## License
+See the [LICENSE](LICENSE) file for details
+
+## 🌱 Support the Project
+
+>Encourage this repo by giving it a star. If you like this concept, click on 'Star' [on the top right of the screen]. This is the GitHub equivalent of '👍 ' or 'like' or '+1'.
+
+*If you've found my work helpful in your project, please consider buying me a coffee to show your support!*
+
+<a href="https://www.buymeacoffee.com/nesun3" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+
+
+<hr>
+<p align="center">
+Developed with ❤️ in India 🇮🇳 
+</p>
