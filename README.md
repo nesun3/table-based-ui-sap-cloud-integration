@@ -16,3 +16,7 @@ As an SAP PO developer, you’re no stranger to the importance of message monito
 To bridge the gap between SAP PO’s Message Monitoring Overview and the SAP Cloud Integration Monitor Message Processing and to provide a monitoring experience comparable to the familiar SAP PO Message Monitoring Overview, I have created a user-friendly solution called the **Table-Based UI**. This solution is crafted to provide you with all the necessary information to facilitate your daily tasks and simplify message monitoring, much like the experience in SAP PO. It is entirely designed using the fundamental building blocks and artifacts of SAP Cloud Integration, harnessing the inherent capabilities of the platform, and utilizing the power of the Groovy Markup Builder. This approach ensures that the solution aligns more closely with the platform’s core development style and pushing the boundaries of what can be accomplished within this framework.
 
 Additionally, I have broadened this approach to include Integration Artifacts and Content, making it your go-to tool for gaining comprehensive insights into all integration contents within your sub-account.
+
+**Here’s a sneak-peak to the solution:**
+
+[<img src="https://img.youtube.com/vi/l6lwwu7u3cU/maxresdefault.jpg" width="50%">](https://www.youtube.com/watch?v=l6lwwu7u3cU "Watch the video")
