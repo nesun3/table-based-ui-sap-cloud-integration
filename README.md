@@ -24,7 +24,8 @@ Additionally, I have broadened this approach to include Integration Artifacts an
 A write-up about this tool can be found here:
 
 ## Requirements
-You will need a SAP Cloud Integration tenant to consume, test and enhance this integrationartifacts.
+ - You will need a SAP Cloud Integration tenant to consume, test and enhance this integrationartifacts.
+ - To preview the HTML page, you will need a REST API client such as Insomnia, Postman, etc.
 
 ## Download and Installation
 This repository contains
