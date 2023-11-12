@@ -23,17 +23,21 @@ Additionally, I have broadened this approach to include Integration Artifacts an
 
 A write-up about this tool can be found here:
 
+
 ## Support, Feedback, Contributing
 
 This project is open to feature requests/suggestions, bug reports, etc. via [GitHub issues](https://github.com/nesun3/ci-cd-sap-cloud-integration/issues/new/choose).
-This project is currently not accepting any contribution, but may change in future.
+
+>This project is currently not accepting any contribution, but may change in future.
+
 
 ## License
 See the [LICENSE](LICENSE) file for details
 
+
 ## 🌱 Support the Project
 
->Encourage this repo by giving it a star. If you like this concept, click on 'Star' [on the top right of the screen]. This is the GitHub equivalent of '👍 ' or 'like' or '+1'.
+>**Encourage this repo by giving it a star. If you like this concept, click on 'Star' [on the top right of the screen]. This is the GitHub equivalent of '👍 ' or 'like' or '+1'**.
 
 *If you've found my work helpful in your project, please consider buying me a coffee to show your support!*
 
