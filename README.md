@@ -22,6 +22,7 @@ Additionally, I have broadened this approach to include Integration Artifacts an
 [<img src="https://img.youtube.com/vi/l6lwwu7u3cU/maxresdefault.jpg" width="50%">](https://www.youtube.com/watch?v=l6lwwu7u3cU "Watch the video")
 
 A write-up about this tool can be found here:
+You can view the user interface for each use case at the following link: https://nesun3.github.io/table-based-ui-examples/
 
 ## Requirements
  - You will need a SAP Cloud Integration tenant to consume, test and enhance this integrationartifacts.
