@@ -23,10 +23,30 @@ Additionally, I have broadened this approach to include Integration Artifacts an
 
 A write-up about this tool can be found here:
 
+## Requirements
+You will need a SAP Cloud Integration tenant to consume, test and enhance this integrationartifacts.
 
+## Download and Installation
+This repository contains
+1. [Integration Package](https://github.com/nesun3/ci-cd-sap-cloud-integration/tree/main/build) - The zip file of the integration package that will help you to create your own Continuous Integration (CI) & Continuous Delivery (CD) pipelines for your SAP Cloud Integration Projects. This package is built in such a way, so that you only need to replace a few configuration parameters that are specific to your environment and organization/project and leave the rest as it is.
+> Further, you can use this package as a starting template to create your own CI/CD pipelines tailored to your organization/project needs and customize further.
+2. [Source Code](https://github.com/nesun3/ci-cd-sap-cloud-integration/tree/main/src) - The unzip or raw file contents of each integration flows.
+
+## Documentation
+To learn how to use the integration artifacts, please refer to the [user documentation](https://github.com/nesun3/ci-cd-sap-cloud-integration/blob/main/docs/README.md).
+
+
+## Features
+
+  - Provide detailed insights not only about SAP Cloud Integration’s Monitor Message Processing but also about all Integration Artifacts/Contents in the tenant in a table-based format.
+  - Enhanced Filtering and Search Capabilities.
+  - Sorting and seamlessly exporting your monitoring data as CSV, Excel, PDF, or copying it to the clipboard.
+  
+
+    
 ## Support, Feedback, Contributing
 
-This project is open to feature requests/suggestions, bug reports, etc. via [GitHub issues](https://github.com/nesun3/ci-cd-sap-cloud-integration/issues/new/choose).
+This project is open to feature requests/suggestions, bug reports, etc. via [GitHub issues](https://github.com/nesun3/table-based-ui-sap-cloud-integration/issues/new/choose).
 
 >This project is currently not accepting any contribution, but may change in future.
 
