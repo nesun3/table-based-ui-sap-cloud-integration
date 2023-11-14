@@ -32,9 +32,11 @@ https://nesun3.github.io/table-based-ui-examples/
 
 ## Download and Installation
 This repository contains
-1. [Integration Package](https://github.com/nesun3/ci-cd-sap-cloud-integration/tree/main/build) - The zip file of the integration package that will help you to create your own Continuous Integration (CI) & Continuous Delivery (CD) pipelines for your SAP Cloud Integration Projects. This package is built in such a way, so that you only need to replace a few configuration parameters that are specific to your environment and organization/project and leave the rest as it is.
-> Further, you can use this package as a starting template to create your own CI/CD pipelines tailored to your organization/project needs and customize further.
-2. [Source Code](https://github.com/nesun3/ci-cd-sap-cloud-integration/tree/main/src) - The unzip or raw file contents of each integration flows.
+1. [Integration Package](https://github.com/nesun3/ci-cd-sap-cloud-integration/tree/main/build) - Download the Integration package named `Table-Based UI for SAP Cloud Integration.zip` and import it to your tenant.
+2. [Source Code](https://github.com/nesun3/table-based-ui-sap-cloud-integration/tree/main/src) - The unzip or raw file contents of each integration flows.
+3. Based on the REST API client of your preference, download the corresponding Zip file. Unzip and import the collections and environment.
+   - [Postman Collection](https://github.com/nesun3/ci-cd-sap-cloud-integration/tree/main/build)
+   - [Insomnia Collection](https://github.com/nesun3/ci-cd-sap-cloud-integration/tree/main/build)
 
 ## Documentation
 To learn how to use the integration artifacts, please refer to the [user documentation](https://github.com/nesun3/ci-cd-sap-cloud-integration/blob/main/docs/README.md).
