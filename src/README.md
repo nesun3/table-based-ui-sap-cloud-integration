@@ -1,1 +1,8 @@
+### ⬆️ The unzip or raw file contents of each integration flows.
+
+| Integration Flow Name    | Descriptions                                                                                                                                                                                                                                                                                        |
+|--------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Integration Artifacts UI | This integration flow will generate an HTML page as a response, providing detailed insights into all or specific Integration Artifacts in the sub-account in a table-based format. The endpoint for accessing this information is `/http/integration-artifacts`.                                    |
+| Integration Assets UI    | This integration flow will generate an HTML page as a response, providing detailed insights into all or specific Integration Assets (such as External Parameter & Resources) in the sub-account in a table-based format. The endpoint for accessing this information is `/http/integration-assets.` |
+| Message Monitoring UI    | This integration flow will generate an HTML page as a response, providing detailed insights into all or specific Monitor Message Processing logs in the sub-account in a table-based format. The endpoint for accessing this information is `/http/message-logs`.                                   |
 
