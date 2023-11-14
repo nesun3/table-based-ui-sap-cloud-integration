@@ -28,3 +28,16 @@ The mentioned integration flow will generate an HTML page as a response. To prev
 | Integration Artifacts UI | Integration Content UI | Get all Integration Artifacts   | GET         | /http/integration-artifacts |
 | Integration Assets UI    | Integration Content UI | Get all Integration Assets      | GET         | /http/integration-assets    |
 | Message Monitoring UI    | Message Monitoring UI  | Get all Message Processing Logs | GET         | /http/message-logs          |
+
+
+# Prerequisites
+Ensure that you have these [prerequisites](https://github.com/nesun3/table-based-ui-sap-cloud-integration/tree/main/.config#prerequisite) in place before proceeding with the interface configuration.
+
+## Configuration
+
+If the above [prerequisites] are fulfilled, you’ll be ready to configure the external parameters of the integration flow and the query parameter for the APIs.
+
+| Config for:                       | Config Guide Link:                                                                                                       |
+|-----------------------------------|--------------------------------------------------------------------------------------------------------------------------|
+| External parameters of the IFLOWs | [Link](https://github.com/nesun3/table-based-ui-sap-cloud-integration/blob/main/.config/External%20parameters.md#external-parmeter-configuration-on-sap-cloud-integration)|
+| Query parameters of the API       | [Link](https://github.com/nesun3/table-based-ui-sap-cloud-integration/blob/main/.config/Query%20parameters.md#endpoints) |
