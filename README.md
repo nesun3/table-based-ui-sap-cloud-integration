@@ -32,11 +32,11 @@ https://nesun3.github.io/table-based-ui-examples/
 
 ## Download and Installation
 This repository contains
-1. [Integration Package](https://github.com/nesun3/ci-cd-sap-cloud-integration/tree/main/build) - Download the Integration package named `Table-Based UI for SAP Cloud Integration.zip` and import it to your tenant.
+1. [Integration Package](https://github.com/nesun3/table-based-ui-sap-cloud-integration/tree/main/build) - Download the Integration package named `Table-Based UI for SAP Cloud Integration.zip` and import it to your tenant.
 2. [Source Code](https://github.com/nesun3/table-based-ui-sap-cloud-integration/tree/main/src) - The unzip or raw file contents of each integration flows.
 3. Based on the REST API client of your preference, download the corresponding Zip file. Unzip and import the collections and environment.
-   - [Postman Collection](https://github.com/nesun3/ci-cd-sap-cloud-integration/tree/main/build)
-   - [Insomnia Collection](https://github.com/nesun3/ci-cd-sap-cloud-integration/tree/main/build)
+   - [Postman Collection](https://github.com/nesun3/table-based-ui-sap-cloud-integration/tree/main/build)
+   - [Insomnia Collection](https://github.com/nesun3/table-based-ui-sap-cloud-integration/tree/main/build)
 
 ## Documentation
 To learn how to use the integration artifacts, please refer to the [user documentation](https://github.com/nesun3/ci-cd-sap-cloud-integration/blob/main/docs/README.md).
