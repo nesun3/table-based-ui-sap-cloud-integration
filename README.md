@@ -17,9 +17,9 @@ To bridge the gap between SAP PO’s Message Monitoring Overview and the SAP Clo
 
 Additionally, I have broadened this approach to include Integration Artifacts and Content, making it your go-to tool for gaining comprehensive insights into all integration contents within your sub-account.
 
-**Here’s a sneak-peak to the solution:**
+**Here’s a sneak-peak to the solution:** Watch the video below:
 
-[<img src="https://img.youtube.com/vi/l6lwwu7u3cU/maxresdefault.jpg" width="50%">](https://www.youtube.com/watch?v=l6lwwu7u3cU "Watch the video")
+[<img src="https://img.youtube.com/vi/l6lwwu7u3cU/maxresdefault.jpg" width="60%">](https://www.youtube.com/watch?v=l6lwwu7u3cU "Watch the video")
 
 A write-up about this tool can be found here:
 
