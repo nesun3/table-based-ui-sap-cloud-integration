@@ -13,6 +13,7 @@ This integration package [Table-Based UI for SAP Cloud Integration](https://gith
 | Integration Assets UI    | This integration flow will generate an HTML page as a response, providing detailed insights into all or specific Integration Assets (such as External Parameter & Resources) in the sub-account in a table-based format. The endpoint for accessing this information is /http/integration-assets. |
 | Message Monitoring UI    | This integration flow will generate an HTML page as a response, providing detailed insights into all or specific Monitor Message Processing logs in the sub-account in a table-based format. The endpoint for accessing this information is /http/message-logs.                                   |
 
+**You can view the user interface for each use case at the following link: https://nesun3.github.io/table-based-ui-examples/**
 
 **Some Key Points:**
 
