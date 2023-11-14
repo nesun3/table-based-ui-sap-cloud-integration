@@ -35,7 +35,7 @@ Ensure that you have these [prerequisites](https://github.com/nesun3/table-based
 
 ## Configuration
 
-If the above [prerequisites] are fulfilled, you’ll be ready to configure the external parameters of the integration flow and the query parameter for the APIs.
+If the above prerequisites are fulfilled, you’ll be ready to configure the external parameters of the integration flow and the query parameter for the APIs.
 
 | Config for:                       | Config Guide Link:                                                                                                       |
 |-----------------------------------|--------------------------------------------------------------------------------------------------------------------------|
