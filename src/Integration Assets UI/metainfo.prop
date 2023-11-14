@@ -1,0 +1,3 @@
+#Store metainfo properties
+#Tue Nov 14 12:44:41 UTC 2023
+description=This integration flow will generate an HTML page as a response, providing detailed insights into all or specific Integration Assets (such as External Parameter & Resources) in the sub-account in a table-based format.

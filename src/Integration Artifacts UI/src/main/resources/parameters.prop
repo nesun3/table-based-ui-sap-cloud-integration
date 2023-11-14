@@ -1,0 +1,5 @@
+#
+#Tue Nov 14 12:44:34 UTC 2023
+LogHTML=Log HTML Page? Allowed values\: yes or no.
+OAuthCredential=Set the name of the Credential created in Security Material for SAP CI ODATA V2 API authentication
+HostAddress=Hostname of Process Integration Runtime Service | API Plan \u2013 you find this value in BTP Cockpit of your Cloud Integration subscription
