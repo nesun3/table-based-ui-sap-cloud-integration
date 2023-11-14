@@ -42,3 +42,14 @@ If the above prerequisites are fulfilled, you’ll be ready to configure the ext
 |-----------------------------------|--------------------------------------------------------------------------------------------------------------------------|
 | External parameters of the IFLOWs | [Link](https://github.com/nesun3/table-based-ui-sap-cloud-integration/blob/main/.config/External%20parameters.md#external-parmeter-configuration-on-sap-cloud-integration)|
 | Query parameters of the API       | [Link](https://github.com/nesun3/table-based-ui-sap-cloud-integration/blob/main/.config/Query%20parameters.md#endpoints) |
+
+
+## **You’re done! Let’s test**
+
+**Using Insomnia:** Watch the video below:
+
+[<img src="https://img.youtube.com/vi/N7Lso12dIjw/maxresdefault.jpg" width="60%">](https://www.youtube.com/watch?v=N7Lso12dIjw "Watch the video")
+
+**Using Postman:** Watch the video below:
+
+[<img src="https://img.youtube.com/vi/RrurN0pGYSQ/maxresdefault.jpg" width="60%">](https://www.youtube.com/watch?v=RrurN0pGYSQ "Watch the video")
