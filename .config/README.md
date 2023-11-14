@@ -19,11 +19,12 @@
 >  For the Neo Environment, please refer to steps 1 and 2 in the [Neo documentation](https://help.sap.com/docs/cloud-integration/sap-cloud-integration/oauth-client-credentials-grant#configuring-oauth-with-a-client-credentials-grant). Assign the roles mentioned above to the user 'oauth_client_<client ID>'. Copy the Token Endpoint (found in the branding tab), Client ID, and Client Secret to your clipboard for use in Step 6 for `Configure Environments`. **[Subscription: Select iflmap node]**
 5. Based on REST API client of your preference – import as below
    - For **Postman**, download the Postman Collection Zip file from the GitHub Repo. Unzip and import the collections and environment into your Postman.
-     ![postman collection](https://github.com/nesun3/table-based-ui-sap-cloud-integration/assets/93763073/b57a8add-af28-4800-93ac-05f74439a9b9)
-     ![postman environments](https://github.com/nesun3/table-based-ui-sap-cloud-integration/assets/93763073/544a74cc-2980-4052-a2e3-8fe26c704034)
+      ![postman collection](https://github.com/nesun3/table-based-ui-sap-cloud-integration/assets/93763073/8c58673e-0d27-42de-a6de-9cf95eec2512)
+      ![postman environments](https://github.com/nesun3/table-based-ui-sap-cloud-integration/assets/93763073/36dda688-c27a-4340-8779-fd075945895a)
+    
    - For **Insomnia**, download the Insomnia Collection Zip file from the GitHub Repo. Unzip and import the collections and environment into your Insomnia.
-     ![insomnia collection](https://github.com/nesun3/table-based-ui-sap-cloud-integration/assets/93763073/14f8c7d2-75d3-4808-ab8c-6cad55c8b553)
-     ![insomnia environments](https://github.com/nesun3/table-based-ui-sap-cloud-integration/assets/93763073/3a7c1eb2-6294-4a00-8eb7-0af55adc14fc)
+     ![insomnia collection](https://github.com/nesun3/table-based-ui-sap-cloud-integration/assets/93763073/3f24158c-cc17-4a87-b180-7be77dd67583)
+     ![insomnia environments](https://github.com/nesun3/table-based-ui-sap-cloud-integration/assets/93763073/775e738b-da39-4597-b482-548bfa81e518)
 6. Configure Environments – Update the Environment variables with the credentials generated in Step 4.
 
 
