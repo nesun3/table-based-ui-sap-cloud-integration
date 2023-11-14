@@ -24,7 +24,7 @@
    - For **Insomnia**, download the Insomnia Collection Zip file from the GitHub Repo. Unzip and import the collections and environment into your Insomnia.
      ![insomnia collection](https://github.com/nesun3/table-based-ui-sap-cloud-integration/assets/93763073/14f8c7d2-75d3-4808-ab8c-6cad55c8b553)
      ![insomnia environments](https://github.com/nesun3/table-based-ui-sap-cloud-integration/assets/93763073/3a7c1eb2-6294-4a00-8eb7-0af55adc14fc)
-
+6. Configure Environments – Update the Environment variables with the credentials generated in Step 4.
 
 
 ## Configuration
