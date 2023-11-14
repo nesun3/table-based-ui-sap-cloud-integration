@@ -50,6 +50,14 @@ If the above prerequisites are fulfilled, you’ll be ready to configure the ext
 
 [<img src="https://img.youtube.com/vi/N7Lso12dIjw/maxresdefault.jpg" width="60%">](https://www.youtube.com/watch?v=N7Lso12dIjw "Watch the video")
 
+>**Know the limitations:**
+
+>Whenever the size of the response exceeds 1MB, the Visual Preview (i.e., response window where the HTML is displayed) is unable to render the HTML Page. However, you can still view the raw HTML as a response. During testing, I observed this issue when the number of rows in the table exceeds 2000. In such cases, a workaround is to download and save the response as an *.html file. Afterward, you can drag and drop the HTML file into the browser of your choice to view tables with huge data/rows. You can also decrease the row count by using multiple filter parameters available in the query parameters. **[Note: This issue is not related with code as the same works in Postman.]**
+
 **Using Postman:** Watch the video below:
 
 [<img src="https://img.youtube.com/vi/RrurN0pGYSQ/maxresdefault.jpg" width="60%">](https://www.youtube.com/watch?v=RrurN0pGYSQ "Watch the video")
+
+>**Know the limitations:**
+
+> Since JavaScript is not enabled by default in Postman, the three export buttons (csv, excel, pdf) will not function in Visualize (i.e., the response window where the HTML is displayed). In such cases, a workaround is to download and save the response as an *.html file. Then, you can drag and drop the HTML file into the browser of your choice and utilize the export buttons as needed. **However, in Postman, there are no constraints related to the size of the response or the number of rows in the tables. During testing, it was able to render the HTML page for tables with rows count exceeding 5000**.
