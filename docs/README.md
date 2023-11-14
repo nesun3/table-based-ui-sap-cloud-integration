@@ -6,7 +6,7 @@
 ## Endpoints
 - [/http/integration-artifacts](#get-all-integration-artifacts)
 - [/http/integration-assets](#get-all-integration-assets)
-- [/http/message-logs](#Products)
+- [/http/message-logs](#get-all-message-processing-logs)
 
 ## Get all Integration Artifacts
 
@@ -57,6 +57,43 @@ Returns an HTML as a response, providing detailed insights into all or specific 
 | SelectIntegrationFlowIds    | No       | Integration flow **IDs** to be included in the extract (comma-separated values). This will filter only those specific Integration flow IDs.                                                                                                                                                                                                                                                                                                                                                                                                                                 | `Test 02,Test 05`                 |
 | Top                         | No       | Show only the first n packages.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                | `50`                              |
 | Skip                        | No       | Skip the first n packages.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     | `100`                             |
+
+**Status codes**
+
+| Status code | Description |
+|-----------------|-----------------------------------------------------|
+| 200 OK | Indicates a successful response. |
+| 412 Precondition Failed | Indicates that either the mandatory parameter is missing or the parameters provided are invalid. |
+
+
+
+## Get all Message Processing Logs
+
+**`GET {{host}}/http/message-logs`**
+
+Returns an HTML as a response, providing detailed insights into all or specific Monitor Message Processing logs in the sub-account in a table-based format.
+>The endpoint requires OAuth 2.0 (Grant type - Client Credentials) Authorization.
+
+>Query Parameters Name's are case-sentive
+
+**Some Key Points**
+ - If query params FromDateTime and ToDateTime are not provided, the API response defaults to the past 24 hours as the date range.
+ - The API response filters all messages having status equal to "discarded" by default.
+ - The API accepts a maximum date range of 90 days.
+
+**Query Parameters**
+
+| Name                        | Required | Description                                                                                                                                              | Example                       |
+|-----------------------------|----------|----------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------|
+| GroupBy                     | No       | Group logs by Message Status. <br>**Allowed Values:** status. [can accept values in any case (upper, lower, or mixed)]                                   | `status`                      |
+| FromDateTime                | No       | From Date Time in UTC.                                                                                                                                   | `2023-11-01T00:00:00Z`        |
+| ToDateTime                  | No       | To Date Time in UTC.                                                                                                                                     | `2023-11-11T00:00:00Z`        |
+| Status                      | No       | Filter by Status.  <br>**Allowed values:** completed, failed, escalated, cancelled, abandoned. [can accept values in any case (upper, lower, or mixed)]. | `Failed`                      |
+| SelectIntegrationPackageIds | No       | Integration Package **IDs** to be included in the extract (comma-separated values). This will filter only those specific Integration Package IDs.        | `TestPackage01,TestPackage02` |
+| SelectIntegrationFlowIds    | No       | Integration flow **IDs** to be included in the extract (comma-separated values). This will filter only those specific Integration flow IDs.              | `Test 02,Test 05`             |
+| Top                         | No       | Show only the first n packages.                                                                                                                          | `50`                          |
+| Skip                        | No       | Skip the first n packages.                                                                                                                               | `100`                         |
+
 
 **Status codes**
 
