@@ -23,8 +23,8 @@ Additionally, I have broadened this approach to include Integration Artifacts an
 
 A write-up about this tool can be found here:
 
-You can view the user interface for each use case at the following link: 
-https://nesun3.github.io/table-based-ui-examples/
+**You can view the user interface for each use case at the following link: 
+https://nesun3.github.io/table-based-ui-examples/**
 
 ## Requirements
  - You will need a SAP Cloud Integration tenant to consume, test and enhance this integrationartifacts.
@@ -39,8 +39,9 @@ This repository contains
    - [Insomnia Collection](https://github.com/nesun3/table-based-ui-sap-cloud-integration/tree/main/build)
 
 ## Documentation
-To learn how to use the integration artifacts, please refer to the [user documentation](https://github.com/nesun3/ci-cd-sap-cloud-integration/blob/main/docs/README.md).
-
+To learn how to use the integration artifacts, please refer to the [user documentation](https://github.com/nesun3/table-based-ui-sap-cloud-integration/tree/main/docs).
+**You can view the user interface for each use case at the following link: 
+https://nesun3.github.io/table-based-ui-examples/**
 
 ## Features
 
