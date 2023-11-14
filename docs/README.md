@@ -15,6 +15,8 @@
 Returns an HTML as a response, providing detailed insights into all or specific Integration Artifacts in the sub-account in a table-based format.
 >The endpoint requires OAuth 2.0 (Grant type - Client Credentials) Authorization.
 
+>Query Parameters Name's are case-sentive
+
 **Query Parameters**
 
 | Name                        | Required | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 | Example                           |
@@ -43,6 +45,8 @@ Returns an HTML as a response, providing detailed insights into all or specific 
 
 Returns an HTML as a response, providing detailed insights into all or specific Integration Assets (such as External Parameter & Resources) in the sub-account in a table-based format.
 >The endpoint requires OAuth 2.0 (Grant type - Client Credentials) Authorization.
+
+>Query Parameters Name's are case-sentive
 
 **Query Parameters**
 
