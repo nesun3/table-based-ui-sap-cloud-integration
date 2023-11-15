@@ -50,7 +50,7 @@ https://nesun3.github.io/table-based-ui-examples/** ⚠ [Please use the desktop 
   - Provide detailed insights not only about SAP Cloud Integration’s Monitor Message Processing but also about all Integration Artifacts/Contents in the tenant in a table-based format.
   - Enhanced Filtering and Search Capabilities.
   - Sorting and seamlessly exporting your monitoring data as CSV, Excel, PDF, or copying it to the clipboard.
-  
+> 🔥 Most importantly, with this, our functional colleagues can now have a look at what's going on in the SAP Cloud Integration landscape without granting access to the BTP cockpit or SAP Cloud Integration sub-account. [Create separate OAuth keys with the service plan 'integration-flow' for such use cases.]
 
     
 ## Support, Feedback, Contributing
