@@ -5,7 +5,10 @@ This integration package [Table-Based UI for SAP Cloud Integration](https://gith
 - Provide detailed insights not only about SAP Cloud Integration’s Monitor Message Processing but also about all Integration Artifacts/Contents in the tenant in a table-based format.
 - Enhanced Filtering and Search Capabilities.
 - Sorting and seamlessly exporting your monitoring data as CSV, Excel, PDF, or copying it to the clipboard.
->**Note:** To preview the HTML page, you will require a REST API client such as [Insomnia](https://insomnia.rest/), [Postman](https://www.postman.com/), etc.
+
+> 🔥 Most importantly, with this, our functional colleagues can now have a look at what's going on in the SAP Cloud Integration landscape without granting access to the BTP cockpit or SAP Cloud Integration sub-account. [Create separate OAuth keys with the service plan 'integration-flow' for such use cases.]
+
+**Note:** To preview the HTML page, you will require a REST API client such as [Insomnia](https://insomnia.rest/), [Postman](https://www.postman.com/), etc.
 
 | Integration Flow Name    | Descriptions                                                                                                                                                                                                                                                                                      |
 |--------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
