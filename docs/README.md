@@ -1,5 +1,7 @@
 This integration package [Table-Based UI for SAP Cloud Integration](https://github.com/nesun3/table-based-ui-sap-cloud-integration/blob/main/build/Table-Based%20UI%20for%20SAP%20Cloud%20Integration.zip) contains integration flows that generate an HTML page as a response, offering comprehensive insights into SAP Cloud Integration's Monitor Message Processing logs and all Integration Artifacts/Contents in the sub-account in a table-based format.
 
+This integration package utilize the standard public OData APIs of SAP Cloud Integration under the hood.
+
 **Key Features:**
 
 - Provide detailed insights not only about SAP Cloud Integration’s Monitor Message Processing but also about all Integration Artifacts/Contents in the tenant in a table-based format.
