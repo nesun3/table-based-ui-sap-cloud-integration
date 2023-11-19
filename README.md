@@ -30,6 +30,13 @@ A write-up about this tool can be found here: [Exploring User-Friendly Table-Bas
 https://nesun3.github.io/table-based-ui-examples/** 
 ⚠ [Please use the desktop 💻 view only, as it is not mobile responsive.]
 
+## Solution Diagrams
+ - ### Solution Overview
+## ![General architecture](https://github.com/nesun3/table-based-ui-sap-cloud-integration/blob/main/docs/images/diagram-export-11-19-2023-12_08_19-PM.png)
+
+ - ### Table-based UI Overview
+## ![Overview of Table-based UI](https://github.com/nesun3/table-based-ui-sap-cloud-integration/blob/main/docs/images/Message%20Processing%20Logs.jpg)
+
 ## Requirements
  - You will need a SAP Cloud Integration tenant to consume, test and enhance this integrationartifacts.
  - **To preview the HTML page, you will need a REST API client such as Insomnia, Postman, etc**.
