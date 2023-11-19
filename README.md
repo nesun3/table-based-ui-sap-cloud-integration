@@ -1,15 +1,18 @@
-<h1 align="center">Table-based User Interfaces (UI)</h1>
-<p align="center">
-User-friendly Table-based User Interfaces (UI) within the context of SAP Cloud Integration.
-</p>
-<div align="center">
+<div>
   
 [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![GitHub](https://img.shields.io/badge/sap_integration-Custom-blue)
 </div>
 
-## About this tool
+<h1>Table-based User Interfaces (UI)</h1>
+
+## Description
+<p>
+User-friendly Table-based User Interfaces (UI) within the context of SAP Cloud Integration.
+</p>
+
+## Overview
 
 As an SAP PO developer, you’re no stranger to the importance of message monitoring. It’s your go-to tool for understanding what’s happening in your SAP landscape. If you’ve had experience with SAP Process Orchestration (PO), you will be familiar with the Message Status Overview, which serves as your gateway to message monitoring. This invaluable tool simplifies the process of searching for messages and identifying errors. However, when you transition to SAP Cloud Integration (CPI), you might find yourself missing the simplicity and convenience of SAP PO’s Message Monitoring Overview. SAP PO Message monitoring overview and its equivalent is not present currently on SAP Cloud Integration / CPI. The look and feel and the navigation process is quite different as it built on top of SAP UI5.
 
@@ -41,9 +44,9 @@ This repository contains
 
 ## Documentation
 To learn how to use the integration artifacts, please refer to the [user documentation](https://github.com/nesun3/table-based-ui-sap-cloud-integration/tree/main/docs).
-
+ 
 📌 **You can view the user interface for each use case at the following link: 
-https://nesun3.github.io/table-based-ui-examples/** ⚠ [Please use the desktop 💻 view only, as it is not mobile responsive.]
+https://nesun3.github.io/table-based-ui-examples/**  ⚠ [Please use the desktop 💻 view only, as it is not mobile responsive.]
 
 ## Features
 
@@ -61,7 +64,7 @@ This project is open to feature requests/suggestions, bug reports, etc. via [Git
 
 
 ## License
-See the [LICENSE](LICENSE) file for details
+See the [LICENSE](LICENSE) file for details.
 
 
 ## 🌱 Support the Project
